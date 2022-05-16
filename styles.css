@@ -18,6 +18,14 @@ font: la que sea en tbodymenos en section 4 que es una italic distinta creo.
 body{
     margin: 5px;
 }
+
+.sign-button,
+.sign-button-2{
+    background-color: #3882f6;
+    color: white;
+    border: #3882f6 solid 1px;
+    border-radius: 10%;
+}
 .main-section{
     /*todo el contenido de la pagina esta metido aca. de esta forma se puede manejar el margin mejor sin tener que desordenar el flex de adentro*/
     margin-left: 100px;
@@ -31,48 +39,165 @@ body{
 }
 /*first section*/
 .first-section{
-    display: flex;  
-    
-    flex-direction: row;
-      
+    padding-bottom:20px;
+    padding-top:5px;
+    padding-left:20px;
+    padding-right:20px;        
+    flex-direction: row; 
+    justify-content: space-between;    
     background-color: #1f2937;
 
 }
 
 .header-logo{
 
-    justify-content: left;
+    padding-left:20px;
     color: white;
 
 }
 .links{
     display:flex;
     flex-direction: row;
+    padding-top:20px;
+    font-size:smaller;
+    
+    justify-content: space-between;
       
     color: white;    
+}
+
+.links2{
+    margin-left:10px;
+    margin-right:10px;
 }
 /*second section*/
 
 
 .second-section{
     background-color: #1f2937;
+    
     color:white;
     flex-direction: row;
     flex:auto;
+   
 }
+.h1andp,
+.momofoto{
+    margin: 40px;
+}
+.sign-button{
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+
+
 
 .h1andp2{
     font-size: smaller;
+    
 }
 
 /*third sect*/
 
+.third-section{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+.third-section-h3{
+    color:#1f2937;
+}
+
+.four-images{
+    color:#1f2937;
+    flex-direction: row;
+}
+
+.imagenesCA{
+    border-radius: 10%;
+    border:solid rgb(78, 136, 243) 2px;
+    
+    margin: 10px;
+    height:100px;
+    width:100px;
+}
+
+.image-subtext{
+    margin:3px;
+    width:90px;
+    
+}
+
+
+
 /*four section*/
+
+.fourth-section{
+    display:flex;
+    flex:auto;
+    background-color: #e5e7eb;
+}
+
+.inspiration{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-style: italic;
+    font-size:smaller;
+    text-align:start ;
+}
+
+
 
 /*fifth*/
 
+.fifth-section{
+    
+    flex-direction: row;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: 100px;
+    margin-right:100px;
+    background-color:#3882f6;
+    padding-left: 200px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+.text-only{
+    
+    justify-content: space-around;
+    flex-direction: column;
+    width:500px;
+    height:100px;
+    color:white;
+}
+.call-action{
+    font-weight: bold;
+}
+
+.sign-button-2{
+border: white solid 1px ;
+border-radius: 10%;
+width: 100px;
+height:25px;
+}
+
 
 /*six*/
+
+.six-section{
+    background-color:#1f2937;
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-size:small;
+}
+
+
+
+/*END SECTIONS*/
 
 
 
@@ -82,7 +207,7 @@ body{
 .fourth-section,
 .fifth-section,
 .six-section{
-    border: 1px solid red;
+    
     display:flex;
 
     
